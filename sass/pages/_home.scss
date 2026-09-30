@@ -1,5 +1,5 @@
 .section-about {
-  background-color: #f7f7f7;
+  background-color: #f5f6fb;
   padding: 6rem 0 12rem;
   text-align: center;
 
@@ -26,16 +26,26 @@
 .section-tours {
 
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: #f5f6fb;
   padding: 6rem 0 10rem ;
 }
 
 .section-stories {
   position: relative;
   padding: 7rem 0;
+  background-color: $color-black-grey;
+  background-image:
+          radial-gradient(circle at 20% 20%, rgba($color-primary, 0.35), transparent 45%),
+          radial-gradient(circle at 80% 80%, rgba($color-accent, 0.25), transparent 45%);
   @include respond(tab-port) {
     padding: 6rem 0;
   }
+}
+
+.section-stories .heading-secondary {
+  background-image: linear-gradient(to right, $color-primary-light, $color-accent);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .section-booking {

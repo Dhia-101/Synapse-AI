@@ -42,13 +42,13 @@
     background-blend-mode: screen;
 
     &--first-card {
-      background-color: #E4BC84;
+      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
     }
     &--second-card {
-      background-image: linear-gradient(to right, $color-primary, $color-primary-dark);
+      background-image: linear-gradient(to right bottom, $color-accent, $color-accent-dark);
     }
     &--third-card {
-      background-color: #E4BC84;
+      background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
     }
   }
 
@@ -111,13 +111,13 @@
     //background-color: #d2d2d2;
 
       &-first-card {
-        background-color: #E4BC84;
+        background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
       }
       &-second-card {
-        background-image: linear-gradient(to right bottom, $color-primary-dark, $color-primary);
+        background-image: linear-gradient(to right bottom, $color-accent, $color-accent-dark);
       }
       &-third-card {
-        background-color: #E4BC84;
+        background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
       }
   }
 

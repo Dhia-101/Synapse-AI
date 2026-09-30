@@ -49,7 +49,7 @@
   }
 
   &--primary {
-    background: linear-gradient(to right,#E4BC84, #AD6D2F);
+    background: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     color: $color-white;
     &:after {
       background-color: inherit;

@@ -1,7 +1,7 @@
 .header {
   height: 100vh;
   background-image:
-          linear-gradient(to right, rgba(#000, 1) 0%, rgba(transparent, 0.8) 30%),
+          linear-gradient(to right, rgba($color-black-grey, 0.92) 0%, rgba($color-primary-dark, 0.55) 45%, rgba(transparent, 0.55) 100%),
           url("../img/hero-small.jpg");
   background-size: cover;
   background-position: top;
@@ -17,7 +17,8 @@
 
   &__logo {
     fill: #fff;
-    width: 8rem;
+    color: #fff;
+    width: 12rem;
     margin-right: 3rem;
     align-self: center;
   }

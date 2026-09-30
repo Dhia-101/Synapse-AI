@@ -1,5 +1,5 @@
 .story {
-  background-color: rgba($color-white, .5);
+  background-color: rgba($color-white, .92);
   margin: 0 auto;
   width: 75%;
   position: relative;
@@ -33,7 +33,9 @@
   }
 
   &__img {
+      width: 100%;
       height: 100%;
+      object-fit: cover;
       transform: translateY(8%) scale(1.2);
       transition: all 0.3s;
   }
